@@ -5,7 +5,7 @@ Tool for finding other hosts in a local network.
 
 ## Installation
 ```
-wget adress
+wget https://raw.githubusercontent.com/entr0pie/bassoon/main/bassoon.py
 ```
 ## Usage
 
