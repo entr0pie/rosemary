@@ -1,5 +1,5 @@
 # rosemary
-Tool for finding other hosts in a local network using ICMP Protocol.
+Tool for finding devices in a network using ICMP Protocol.
 
 <img src="images/rosemary.png" alt="rosemary example">
 
