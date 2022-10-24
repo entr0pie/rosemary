@@ -11,8 +11,6 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     INFO = '\033[177m'
-
-# bloody font
                                                                
 def ping_host_group(group, verbose):
     for addr in group:
@@ -47,6 +45,7 @@ if args.nocolor:
     b.OKGREEN = ''
     b.BOLD = ''
 
+# bloody font
 banner =  f"{b.HEADER}                                                       \n\n"
 banner += "   ▄▄▄▄    ▄▄▄        ██████   ██████  ▒█████   ▒█████   ███▄    █ \n"
 banner += "  ▓█████▄ ▒████▄    ▒██    ▒ ▒██    ▒ ▒██▒  ██▒▒██▒  ██▒ ██ ▀█   █ \n"
