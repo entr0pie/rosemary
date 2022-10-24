@@ -23,3 +23,6 @@ python3 bassoon.py --network 192.168.10.0/24 --threads 5
 ```
 python3 bassoon.py --network 192.168.10.0/24 --threads 3 --verbose --nocolor 
 ```
+
+## License 
+This project is under [GNU GPL3](https://www.gnu.org/licenses/gpl-3.0.html). 
