@@ -72,7 +72,7 @@ print(f" {b.OKCYAN}[INFO]{b.ENDC} STARTING...")
 
 
 if threads == None:
-    threads = 1
+    threads = 2
 
 range_ip = network.num_addresses // threads
 
