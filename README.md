@@ -9,7 +9,7 @@ wget https://raw.githubusercontent.com/entr0pie/bassoon/main/bassoon.py
 ```
 ## Usage
 
-### Simple Scan (One-thread, not recommended)
+### Simple Scan (Dual Thread)
 ```
 python3 bassoon.py --network 192.168.10.0/24
 ```
