@@ -46,17 +46,15 @@ if args.nocolor:
     b.BOLD = ''
 
 # bloody font
-banner =  f"{b.HEADER}                                                       \n\n"
-banner += "   ▄▄▄▄    ▄▄▄        ██████   ██████  ▒█████   ▒█████   ███▄    █ \n"
-banner += "  ▓█████▄ ▒████▄    ▒██    ▒ ▒██    ▒ ▒██▒  ██▒▒██▒  ██▒ ██ ▀█   █ \n"
-banner += "  ▒██▒ ▄██▒██  ▀█▄  ░ ▓██▄   ░ ▓██▄   ▒██░  ██▒▒██░  ██▒▓██  ▀█ ██▒\n"
-banner += "  ▒██░█▀  ░██▄▄▄▄██   ▒   ██▒  ▒   ██▒▒██   ██░▒██   ██░▓██▒  ▐▌██▒\n"
-banner += "  ░▓█  ▀█▓ ▓█   ▓██▒▒██████▒▒▒██████▒▒░ ████▓▒░░ ████▓▒░▒██░   ▓██░\n"
-banner += "  ░▒▓███▀▒ ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░░ ▒░▒░▒░ ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ \n"
-banner += "  ▒░▒   ░   ▒   ▒▒ ░░ ░▒  ░ ░░ ░▒  ░ ░  ░ ▒ ▒░   ░ ▒ ▒░ ░ ░░   ░ ▒░\n"
-banner += "   ░    ░   ░   ▒   ░  ░  ░  ░  ░  ░  ░ ░ ░ ▒  ░ ░ ░ ▒     ░   ░ ░ \n"
-banner += "   ░            ░  ░      ░        ░      ░ ░      ░ ░           ░ \n"
-banner += "        ░                                                          \n"
+banner =  f"{b.HEADER}"                                                                                       
+banner += "                                                             \n"  
+banner += " _______  ____  ______ ____   _____ _____ _______ ___.__.    \n"  
+banner += " \_  __ \/  _ \/  ___// __ \ /     \\\\__  \\\\_  __ <   |  |\n"  
+banner += "  |  | \(  <_> )___ \\\\  ___/|  Y Y  \/ __ \|  | \/\___  |  \n"  
+banner += "  |__|   \____/____  >\___  >__|_|  (____  /__|   / ____|    \n"  
+banner += "                   \/     \/      \/     \/       \/         \n"  
+banner += "\n"  
+                                                                                    
 banner += f"{b.ENDC}"
 
 print(banner)
@@ -67,12 +65,12 @@ print(f" {b.OKCYAN}[INFO]{b.ENDC} Using NETWORK {network}")
 network = ipaddress.IPv4Network(network)
 
 threads = args.threads
-print(f" {b.OKCYAN}[INFO]{b.ENDC} THREADS is set to {threads}")
-print(f" {b.OKCYAN}[INFO]{b.ENDC} STARTING...")
-
 
 if threads == None:
     threads = 2
+
+print(f" {b.OKCYAN}[INFO]{b.ENDC} THREADS is set to {threads}")
+print(f" {b.OKCYAN}[INFO]{b.ENDC} STARTING...")
 
 range_ip = network.num_addresses // threads
 
