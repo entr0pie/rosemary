@@ -1,5 +1,5 @@
 # bassoon
-Tool for finding other hosts in a local network.
+Tool for finding other hosts in a local network using ICMP Protocol.
 
 <img src="images/bassoon.png"  alt="bassoon example">
 
