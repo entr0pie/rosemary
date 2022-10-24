@@ -1,5 +1,5 @@
 # bassoon
-Tool for finding other hosts in local network.
+Tool for finding other hosts in a local network.
 
 <img src="images/bassoon.png"  alt="bassoon example">
 
