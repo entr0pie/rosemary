@@ -1,4 +1,4 @@
-# rosemary
+# Rosemary
 Find hosts on a local network with multithreading.
 
 <img src="rosemary.png" alt="Rosemary with 20 threads." width="600"/>
