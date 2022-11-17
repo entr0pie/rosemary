@@ -1,7 +1,7 @@
 # rosemary
 Find hosts on a local network with multithreading.
 
-<img src="rosemary.png" alt="Rosemary with 20 threads." width="400"/>
+<img src="rosemary.png" alt="Rosemary with 20 threads." width="600"/>
 
 ## Installation
 ```
